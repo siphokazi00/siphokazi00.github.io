@@ -8,12 +8,12 @@ h1 {
 }
 
 img {
-  position: center;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 5px;
   width: 150px;
-  display:block;
+  display: grid;
+  place-items: center;
   width:25%;
 }
 p {
