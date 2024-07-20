@@ -12,6 +12,8 @@ img {
   border-radius: 8px;
   padding: 5px;
   width: 150px;
+  display: block;
+  width: 25%;
 
 }
 div {
