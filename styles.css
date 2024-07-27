@@ -16,6 +16,12 @@ img {
   width: 25%;
 
 }
+
+.logo {
+  width: 100px;
+  padding: 5px;
+}
+
 div {
   display: grid;
   place-items: center;
