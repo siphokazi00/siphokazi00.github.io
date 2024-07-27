@@ -12,6 +12,22 @@ h2 {
   color: forestgreen;
 }
 
+.typewriter title {
+  font-family: monospace;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: forestgreen; }
+}
+
 .image {
   border: 1px solid #ddd;
   border-radius: 8px;

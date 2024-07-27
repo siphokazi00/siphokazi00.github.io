@@ -1,40 +1,13 @@
-// Get the form element
-const form = document.getElementById('form');
+const text = "Hi, Sipho here...Welcome to my portfolio :)";
+let index = 0;
+const speed = 100;
 
-// Add an event listeneer for the submit event
-form.addEventListener('submit', (e) => {
-    // Prevent the form from submitting
-    event.preventDefault();
+function typeWriter() {
+    if (index < text.length) {
+        document.getElementById("typing-text").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, speed);
+    }
+}
 
-// Get the form data
-const name = document.getElementById('name').value;
-const email = document.getElementById('email').value;
-const message = document.getElementById('message').value;
-
-// Create a JSON object with the form data
-const formData = {
-    name,
-    email,
-    message
-};
-
-// Use the fetch API to send a POST request to the server
-fetch('/contact', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-})
-.then(response => response.json())
-.then(data => {
-    console.log(data);
-    // Display a success message
-    alert('Message sent successfully!');
-})
-.catch((error) => {
-    console.error(error);
-    // Display an error message
-    alert('Error sending message. Please try again later.');
-});
-});
+window.onload = typeWriter;
