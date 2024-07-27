@@ -14,6 +14,8 @@ h2 {
 
 .typewriter title {
   font-family: monospace;
+  font-size: 30px;
+  color: forestgreen;
   display: inline-block;
   overflow: hidden;
   border-right: 0.15em solid orange;
