@@ -1,10 +1,15 @@
 body {
-    background-color: forestgreen;
+    background-color: black;
     color: white;
 }
 
 h1 {
     font-size: 30px;
+    color: forestgreen;
+}
+
+h2 {
+  color: forestgreen;
 }
 
 .image {
@@ -36,7 +41,7 @@ nav a {
   transition: color 0.3s;
 }
 nav a:hover {
-  color: blue;
+  color: forestgreen;
 }
 
 .nav-color {
@@ -46,7 +51,7 @@ nav a:hover {
 }
 
 .nav-link:hover {
-  color: blue;
+  color: forestgreen;
 }
 
 .button {
@@ -57,8 +62,8 @@ nav a:hover {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #000;
-  background-color: #fff;
+  color: black;
+  background-color: forestgreen;
   border: none;
   border-radius: 15px;
   box-shadow: 0 5px #999;
@@ -70,38 +75,4 @@ nav a:hover {
   background-color: #ddd;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-#contact-form {
-  max-width: 400px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-#contact-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-#contact-form input, #contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-}
-
-#contact-form input[type="submit"] {
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#contact-form input[type="submiy"]:hover {
-  background-color: #3e8e41;
 }
