@@ -101,6 +101,32 @@ header, nav, main, section {
     text-align: center;
     margin: 0 auto;
     padding: 10px;
+    position: relative;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.social-links, .main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a, .main-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 ul {

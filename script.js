@@ -1,4 +1,4 @@
-const text = "Hi, Sipho here...Welcome to my portfolio :)";
+const text = "hi, sipho here...\nwelcome to my portfolio :)";
 let index = 0;
 const speed = 100;
 
