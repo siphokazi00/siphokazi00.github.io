@@ -45,7 +45,7 @@ h2 {
 }
 
 .logo {
-  width: 65px;
+  width: 55px;
 }
 
 div {
@@ -92,7 +92,7 @@ nav a:hover {
   box-shadow: 0 5px #999;
 }
 
-.button:hover {background-color: #f1f1f1}
+.button:hover {background-color: forestgreen}
 
 .button:active {
   background-color: #ddd;
@@ -107,29 +107,43 @@ header, nav, main, section {
     position: relative;
 }
 
-.banner {
+.corner-links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #f8f8f8;
+  align-items: left;
   padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
-  position: fixed;
-  top: 0;
+  position: absolute;
   width: 100%;
+  top: 0;
   z-index: 1000;
 }
 
 .social-links, .main-nav {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .social-links a, .main-nav a {
     margin: 0 10px;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation-links {
+  display: flex;
+  align-items: right;
+}
+
+.social-links a, .navigation-links a {
+    margin: 0 10px;
+    text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.social-links a:hover, .navigation-links a:hover {
+    color: gray;
 }
 
 ul {
