@@ -45,7 +45,7 @@ h2 {
 }
 
 .logo {
-  width: 25px;
+  width: 15px;
   height: auto;
   align-items: right;
 }
@@ -122,7 +122,7 @@ header, nav, main, section {
 
 .social-links, .main-nav {
     display: flex;
-    align-items: left;
+    align-items: right;
 }
 
 .social-links a, .main-nav a {
@@ -134,7 +134,7 @@ header, nav, main, section {
 
 .navigation-links {
   display: flex;
-  align-items: right;
+  align-items: left;
 }
 
 .social-links a, .navigation-links a {
