@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 h1 {
@@ -93,4 +94,26 @@ nav a:hover {
   background-color: #ddd;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+header, nav, main, section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
