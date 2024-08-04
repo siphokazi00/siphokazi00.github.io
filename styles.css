@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -109,4 +110,9 @@ ul {
 
 li {
     margin: 10px 0;
+}
+
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
 }
