@@ -165,3 +165,16 @@ section {
   padding: 40px 0;
   border-bottom: 1px solid #ddd;
 }
+
+.comfortaa-regular{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.calistoga-regular {
+  font-family: "Calistoga", serif;
+  font-weight: 700;
+  font-style: normal;
+}
