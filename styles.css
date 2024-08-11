@@ -55,7 +55,7 @@ h2 {
 }
 
 .image-2 {
-  width: 100px;
+  width: 150px;
 }
 
 .logo {
@@ -103,16 +103,12 @@ nav a:hover {
   outline: none;
   color: black;
   background-color: forestgreen;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0 5px #999;
 }
 
 .button:hover {background-color: forestgreen}
 
 .button:active {
   background-color: #ddd;
-  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
