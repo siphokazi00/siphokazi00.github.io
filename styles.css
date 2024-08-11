@@ -178,3 +178,9 @@ section {
   font-weight: 700;
   font-style: normal;
 }
+
+.banner {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
