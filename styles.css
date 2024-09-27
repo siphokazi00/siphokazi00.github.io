@@ -326,7 +326,7 @@ section {
 .tech-stack li {
   position: relative;
   padding-left: 20px;
-  margin-bottom: 4.5px;
+  margin-bottom: 5.5px;
 }
 .tech-stack li::before {
   content: " ❃ ";
