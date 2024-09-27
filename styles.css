@@ -123,7 +123,7 @@ nav a:hover {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: black;
+  background-color: black;
   background: none;
   border: none;
 }
@@ -231,10 +231,10 @@ section {
   margin: auto;
 }
 
-/* Hide images by default
+/* Hide images by default */
 .mySlides {
   display: none;
-}*/
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -256,6 +256,21 @@ section {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .container {
@@ -289,6 +304,10 @@ section {
   .logo {
     width: 20px; /* Reduce the size of social logos */
   }
+
+  footer {
+    text-align: center;
+  }
 }
 
 /* Custom bullet point styling for the tech stack list */
@@ -300,7 +319,7 @@ section {
 .tech-stack li {
   position: relative;
   padding-left: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 4.5px;
 }
 .tech-stack li::before {
   content: " ❃ ";

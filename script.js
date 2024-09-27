@@ -26,26 +26,51 @@ function currentSlide(n) {
 }*/
 
 var slideIndex = 0;
-showSlidesAuto();
+var slideshowStarted = false; // Keeps track of whether the slideshow has started
 
+// Function to start slideshow on arrow click
+function startSlideshow(n) {
+    if (!slideshowStarted) {
+        showSlidesAuto(); // Start the slideshow
+        slideshowStarted = true; // Prevent multiple triggers
+    }
+    plusSlides(n); // Navigate to the next or previous slide
+}
+
+// Next/previous controls
+function plusSlides(n) {
+    slideIndex += n;
+    showSlides(slideIndex);
+}
+
+// Function to show slides and navigate
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+
+    if (n > slides.length) { slideIndex = 1 }  // Reset to first slide
+    if (n < 1) { slideIndex = slides.length }  // Set to last slide
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  // Hide all slides
+    }
+
+    slides[slideIndex - 1].style.display = "block";  // Show the current slide
+}
+
+// Function to auto start the slideshow
 function showSlidesAuto() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  // Hide all slides
+    }
 
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
 
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
+    slides[slideIndex - 1].style.display = "block";  // Show the current slide
 
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-
-  setTimeout(showSlidesAuto, 2000); // Change image every 2 seconds
+    setTimeout(showSlidesAuto, 2000); // Change image every 2 seconds
 }
