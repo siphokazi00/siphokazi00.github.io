@@ -13,6 +13,7 @@ footer {
   text-align: center;
   position: relative;
   bottom: 0;
+  top: 20px;
   width: 100%;
   font-size: x-small;
 }
@@ -152,7 +153,6 @@ header, nav, main, section {
   margin: 0 auto;
   top: 0;
   z-index: 1000;
-  flex-wrap: wrap;
 }
 
 .social-links, .main-nav {
