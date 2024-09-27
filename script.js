@@ -1,4 +1,4 @@
-const text = "hi, sipho here...\nwelcome to my portfolio :)";
+const text = "hi, sphow here...\nwelcome to my portfolio :)";
 let index = 0;
 const speed = 100;
 
@@ -25,19 +25,27 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+var slideIndex = 0;
+showSlidesAuto();
+
+function showSlidesAuto() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+    slides[i].style.display = "none";  
   }
+
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
+
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlidesAuto, 2000);
+
+  setTimeout(showSlidesAuto, 2000); // Change image every 2 seconds
 }
