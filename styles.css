@@ -297,7 +297,11 @@ section {
   padding-left: 0; /* Remove default padding */
 }
 
-/* Diamond bullet point */
+.tech-stack li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
 .tech-stack li::before {
   content: " ★ ";
   position: absolute;
