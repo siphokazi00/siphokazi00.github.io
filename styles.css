@@ -216,12 +216,15 @@ section {
 .banner {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 1000;
     background-color: black;
     color: white;
     padding: 20px 0;
     opacity: 1;
+    margin: 0;
 }
 
 /* Slideshow container */
@@ -285,5 +288,9 @@ section {
 
   .logo {
     width: 20px; /* Reduce the size of social logos */
+  }
+
+  .banner {
+    padding: 40px 0;
   }
 }
