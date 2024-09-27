@@ -12,7 +12,7 @@ function typeWriter() {
 
 window.onload = typeWriter;
 
-var slideIndex = 1;
+/*var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -23,7 +23,7 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+}*/
 
 var slideIndex = 0;
 showSlidesAuto();
