@@ -5,7 +5,7 @@ html, body {
 }
 
 /* Footer stays at the bottom */
-footer {
+.footer {
   background-color: black;
   color: whiter;
   padding: 10px 20px;
@@ -13,7 +13,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  font-size: small;
+  font-size: x-small;
 }
 
 body {
