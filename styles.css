@@ -189,7 +189,7 @@ li {
 }
 
 section {
-  padding: 150px 0;
+  padding: 10px 0;
   border: none;
 }
 
@@ -209,8 +209,12 @@ section {
 .banner {
     position: fixed;
     top: 0;
+    width: 100%
     z-index: 1000;
-    color: black;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    opacity: 1;
 }
 
 /* Slideshow container */
