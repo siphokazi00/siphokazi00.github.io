@@ -138,6 +138,7 @@ header {
   margin: 0 auto;
   padding: 50px;
   position: relative;
+  font-size: x-large;
 }
 
 nav, main, section {
