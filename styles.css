@@ -133,8 +133,15 @@ nav a:hover {
   transform: translateY(4px);
 }
 
-header, nav, main, section {
-    text-align: center;
+header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  position: relative;
+}
+
+nav, main, section {
+    text-align: left;
     margin: 0 auto;
     padding: 0px;
     position: relative;
@@ -226,10 +233,10 @@ section {
   margin: auto;
 }
 
-/* Hide images by default */
+/* Hide images by default
 .mySlides {
   display: none;
-}
+}*/
 
 /* Next & previous buttons */
 .prev, .next {
