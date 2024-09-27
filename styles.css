@@ -214,7 +214,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 5;
     width: 100%;
     z-index: 1000;
     background-color: black;
@@ -295,12 +295,6 @@ section {
 .tech-stack {
   list-style: none; /* Remove default bullet points */
   padding-left: 0; /* Remove default padding */
-}
-
-.tech-stack li {
-  position: relative;
-  padding-left: 30px; /* Space for the custom bullet */
-  margin-bottom: 5px; /* Add spacing between items */
 }
 
 /* Diamond bullet point */
