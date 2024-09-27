@@ -273,9 +273,12 @@ section {
 }
 
 @media (max-width: 768px) {
-  .corner-links {
-    flex-direction: column; /* Stack the items vertically if needed */
-    align-items: center; /* Center align items */
+  .navigation-links {
+    display: none;
+  }
+
+  .social-links {
+    justify-content: left;
   }
 
   nav a {
