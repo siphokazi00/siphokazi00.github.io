@@ -289,8 +289,4 @@ section {
   .logo {
     width: 20px; /* Reduce the size of social logos */
   }
-
-  .banner {
-    padding: 40px 0;
-  }
 }
