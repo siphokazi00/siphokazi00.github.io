@@ -299,8 +299,8 @@ section {
 
 .tech-stack li {
   position: relative;
-  padding-left: 20px; /* Space for the custom bullet */
-  margin-bottom: 10px; /* Add spacing between items */
+  padding-left: 30px; /* Space for the custom bullet */
+  margin-bottom: 5px; /* Add spacing between items */
 }
 
 /* Diamond bullet point */
