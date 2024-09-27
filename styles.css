@@ -4,18 +4,6 @@ html, body {
   padding: 0;
 }
 
-/* Wrapper for all the content except footer */
-.wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Main content will take the remainig space after header and footer */
-.main-content {
-  flex: 1;
-}
-
 /* Footer stays at the bottom */
 footer {
   background-color: black;
