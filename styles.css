@@ -6,7 +6,7 @@ html, body {
 }
 
 /* Footer stays at the bottom */
-footer {
+footer div {
   background-color: black;
   color: white;
   padding: 20px;
