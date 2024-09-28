@@ -390,6 +390,12 @@ section {
     height: auto; /* Make sure the card occupies the full height */
 }
 
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card-icons {
     display: flex;
     justify-content: space-between;
