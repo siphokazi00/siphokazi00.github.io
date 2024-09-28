@@ -238,7 +238,7 @@ section {
 
 .mySlides img {
   display: block;
-  margin: 0 autho;
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
@@ -313,7 +313,7 @@ section {
   }
 
   footer {
-    text-align: center;
+    position: center;
   }
 }
 
