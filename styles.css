@@ -114,32 +114,26 @@ nav a:hover {
   color: forestgreen;
 }
 
-.button {
+.button-image {
   display: inline-block;
-  padding: 0;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 16px;
+  padding: 5px;
+  border: 2px white;
+  border-radius: 5px;
   cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  background-color: black;
-  background: none;
+  transition: border 0.3s ease transform 0.3s ease;
+}
+
+.button-image:hover {
+  border-color: white;
+  transform: scale(1.05);
+}
+
+.button-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border: none;
 }
-
-.button img {
-  margin-right: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.button:hover {background-color: forestgreen}
-
-.button:active {
-  transform: translateY(4px);
-}
-
 
 header, nav, main, section {
     text-align: left;
