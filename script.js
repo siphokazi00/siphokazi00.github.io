@@ -74,24 +74,3 @@ function showSlidesAuto() {
 
     setTimeout(showSlidesAuto, 2000); // Change image every 2 seconds
 }
-
-    // Function to handle intersection and add class when element comes into view
-    function animateOnScroll(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible'); // Add 'visible' class to trigger animation
-            }
-        });
-    }
-
-    // Create a new Intersection Observer instance
-    const observer = new IntersectionObserver(animateOnScroll, {
-        threshold: 0.1 // When 10% of the element is visible
-    });
-
-    // Target all project cards
-    const projectCards = document.querySelectorAll('.project-card');
-
-    projectCards.forEach(card => {
-        observer.observe(card); // Observe each project card
-    });
