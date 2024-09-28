@@ -174,7 +174,7 @@ nav a:hover {
 
 header, nav, main, section {
     text-align: left;
-    margin-bottom: 50px;
+    margin: 0 auto;
     padding: 0px;
     position: relative;
 }
@@ -232,6 +232,7 @@ li {
 section {
   padding: 10px 0;
   border: none;
+  margin-bottom: 50px;
 }
 
 .comfortaa-regular{
