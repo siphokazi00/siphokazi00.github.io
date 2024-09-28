@@ -85,18 +85,30 @@ h2 {
 
 }
 
-.image-2 {
-  width: 150px;
-  height: auto;
-  padding: none;
-  border: none;
-  display: inline-block;
-  padding: 2px;
-  border: 2px black;
+button.get-in-touch {
   background-color: black;
-  border-radius: 1px;
+  color: forestgreen;
+  padding: 15px 25px;
+  border: 2px solid forestgreen;
+  font-size: 20px;
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
   cursor: pointer;
-  transition: border 0.3s ease transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+button.get-in-touch:hover {
+  background-color: white;
+  color: black;
+}
+
+button.get-in-touch img {
+  margin-right: 10px;
+  height: 20px;
 }
 
 .logo {
