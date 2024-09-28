@@ -79,6 +79,7 @@ h2 {
   display: inline-block;
   padding: 5px;
   border: 2px white;
+  background-color: black;
   border-radius: 1px;
   cursor: pointer;
   transition: border 0.3s ease transform 0.3s ease;
