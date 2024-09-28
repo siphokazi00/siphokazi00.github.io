@@ -387,7 +387,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto; /* Make sure the card occupies the full height */
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
 }
 
 .project-content {
@@ -417,7 +419,7 @@ section {
 
 .project-description {
     font-size: 0.9em;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: #8892b0; /* Descriptive text */
 }
 
