@@ -387,7 +387,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Make sure the card occupies the full height */
+    height: auto; /* Make sure the card occupies the full height */
 }
 
 .card-icons {
