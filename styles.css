@@ -371,10 +371,3 @@ section {
   color: forestgreen;
   font-size: 18px;
 }
-
-#smileyCanvas {
-    display: block;
-    margin: 20px auto; /* Center canvas on the page */
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
